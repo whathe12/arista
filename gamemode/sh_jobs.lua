@@ -87,7 +87,7 @@ TEAM_VICEMAYOR = arista.team.add("Vice-Mayor", {
 
 	vicemayor = true,
 
-	salary = 500,
+	salary = 400,
 	limit = 1,
 
 	access = "dgeD",
@@ -104,7 +104,7 @@ TEAM_VICEMAYOR = arista.team.add("Vice-Mayor", {
 TEAM_POLICEOFFICER = arista.team.add("Police Officer", {
 	color = Color(100, 155, 255, 255),
 	males = "models/player/riot.mdl",
-	description = "Controls the police and criminal justice.",
+	description = "Maintains the city and arrests criminals.",
 
 	officer = true,
 
@@ -130,11 +130,11 @@ TEAM_POLICEOFFICER = arista.team.add("Police Officer", {
 TEAM_POLICECOMMANDER = arista.team.add("Police Commander", {
 	color = Color(100, 155, 255, 255),
 	males = "models/player/urban.mdl",
-	description = "Maintains the city and arrests criminals.",
+	description = "Controls the police and criminal justice.",
 
 	commander = true,
 
-	salary = 350,
+	salary = 300,
 	limit = 1,
 
 	access = "",
@@ -161,7 +161,7 @@ TEAM_SECRETARY = arista.team.add("Secretary", {
 	},
 	description = "Maintains public relations and does misc jobs.",
 
-	salary = 350,
+	salary = 200,
 	limit = 4,
 
 	access = "",
@@ -184,7 +184,7 @@ TEAM_CITIZEN = arista.team.add("Citizen", {
 	color = Color(25, 150, 25, 255),
 	description = "A regular Citizen living in the city.",
 
-	salary = 200,
+	salary = 100,
 
 	access = "",
 
@@ -201,7 +201,7 @@ TEAM_GUNDEAL = arista.team.add("Gun Dealer", {
 	color = Color(170, 150, 25, 255),
 	description = "The owner of a gun store.",
 
-	salary = 220,
+	salary = 150,
 
 	access = "",
 
@@ -220,7 +220,7 @@ TEAM_CHEF = arista.team.add("Chef", {
 	color = Color(255, 125, 200, 255),
 	description = "Sells food to the city's inhabitants.",
 
-	salary = 220,
+	salary = 150,
 	limit = 5,
 
 	access = "",
